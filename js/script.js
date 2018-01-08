@@ -6,7 +6,9 @@
 
 // Document Ready Function. All of your jQuery should go in here. 
 $( document ).ready(function() {
-  
+$("button").click(function(word){
+	
+});
 
 
 
@@ -14,8 +16,12 @@ $( document ).ready(function() {
 
 
 // Create the wordToPigLatin function that takes a word as a parameter and returns a transfromed word. 
-
-
+function wordToPigLatin(word){
+	var first = str.substr(0)
+	if(first === "a" || first === 'e' || first === 'i' || first === 'o' || first === 'u'){
+		return word + "yay"
+}
+	else
 
 
 
