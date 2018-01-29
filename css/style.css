@@ -1,8 +1,41 @@
 body{
     text-align: center;
+    background-image: url("https://i2.wp.com/cdn.litlepups.net/2015/07/27/the-cute-pig-illustrator-wallpaper-comics-desktop-background.jpg?resize=720%2C450");
+    background-size:cover;
+    
 }
 
-#translate{
+#translate, #restart, #untranslate, #restartTwo{
     background-color:#ffc0cb;
     border-color:#ff8da1;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size:24px;
+}
+
+h1{
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size:64px;
+}
+
+input{
+    font-family: 'Poiret One', cursive;
+    width:400px;
+    height:36px;
+    font-size:24px;
+}
+
+p{
+    font-family: 'Poiret One', cursive;
+    font-size:24px;
+    font-weight:bold;
+}
+
+#resultBox, #resultBoxTwo{
+    border-style: groove;
+    border-color: #ff8da1; 
+    background-color: white;
+}
+
+.spacer {
+    height:50px;
 }
