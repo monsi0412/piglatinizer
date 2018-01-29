@@ -1,7 +1,7 @@
 body{
     text-align: center;
-    background-image: url("https://i2.wp.com/cdn.litlepups.net/2015/07/27/the-cute-pig-illustrator-wallpaper-comics-desktop-background.jpg?resize=720%2C450");
-    background-size:cover;
+    background-image: url("https://data.whicdn.com/images/134639989/superthumb.jpg");
+    /*background-size:cover;*/
     
 }
 
@@ -10,11 +10,14 @@ body{
     border-color:#ff8da1;
     font-family: 'Waiting for the Sunrise', cursive;
     font-size:24px;
+    text-shadow: 3px 3px 6px black;
 }
 
 h1{
     font-family: 'Waiting for the Sunrise', cursive;
     font-size:64px;
+    color:white;
+    text-shadow: 3px 3px 6px black;
 }
 
 input{
